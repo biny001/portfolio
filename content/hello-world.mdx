@@ -1,11 +1,127 @@
 ---
-title: "Hello World"
+title: "Hello World Tutorial: Write Your First Program in 5 Languages"
 publishedAt: "2024-06-18"
 summary: "My first post on my new blog."
 ---
 
-Hi there!
+## What Is a "Hello World" Program?
+
+A "Hello World" program is the simplest possible program you can write in any language: it just displays the text "Hello, World!" on the screen. It doesn't do anything useful on its own, but it proves that your tools are installed correctly and shows you the basic shape of the language — how to write a statement, run a file, and see output.
+
+This tutorial walks through writing and running a Hello World program in five popular languages: Python, JavaScript, Java, C++, and Go. Pick the one you're learning, or try a few to compare how different languages handle the same task.
+
+## Python
+
+Python is often recommended as a first language because the syntax is minimal.
+
+1. Install Python from [python.org](https://www.python.org/) if you don't already have it. Check it worked by running `python3 --version` in your terminal.
+2. Create a file named `hello.py` and add:
+
+```python
+print("Hello, World!")
+```
+
+3. Run it from your terminal:
+
+```bash
+python3 hello.py
+```
+
+You should see `Hello, World!` printed out.
+
+## JavaScript
+
+JavaScript runs in every web browser and, with Node.js, on your own machine too.
+
+**In a browser:**
 
 ```jsx
-console.log("Hello World");
+console.log("Hello, World!");
 ```
+
+Open your browser's developer console (right-click a page → Inspect → Console) and paste the line above, then press Enter.
+
+**With Node.js:**
+
+1. Install [Node.js](https://nodejs.org/).
+2. Create a file named `hello.js`:
+
+```jsx
+console.log("Hello, World!");
+```
+
+3. Run it:
+
+```bash
+node hello.js
+```
+
+## Java
+
+Java requires a bit more structure because everything lives inside a class.
+
+1. Install the [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/downloads/).
+2. Create a file named `HelloWorld.java`:
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+```
+
+3. Compile and run it:
+
+```bash
+javac HelloWorld.java
+java HelloWorld
+```
+
+## C++
+
+1. Install a C++ compiler, such as [g++](https://gcc.gnu.org/) (often included with build tools on Linux and Mac, or via MinGW on Windows).
+2. Create a file named `hello.cpp`:
+
+```cpp
+#include <iostream>
+
+int main() {
+    std::cout << "Hello, World!" << std::endl;
+    return 0;
+}
+```
+
+3. Compile and run it:
+
+```bash
+g++ hello.cpp -o hello
+./hello
+```
+
+## Go
+
+Go is known for fast compilation and a simple toolchain.
+
+1. Install [Go](https://go.dev/dl/).
+2. Create a file named `hello.go`:
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello, World!")
+}
+```
+
+3. Run it directly:
+
+```bash
+go run hello.go
+```
+
+## Why Bother With Hello World?
+
+It looks trivial, but a working Hello World confirms three things at once: your language runtime or compiler is installed correctly, you know how to create and save a source file, and you know how to run it. Once that loop works, you're ready to move on to variables, functions, and real programs — in whichever language you picked above.
