@@ -10,6 +10,11 @@ import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
 
+export const metadata = {
+  title: "Binyamin Tamirat | Full-Stack Developer (React, Next.js, TypeScript)",
+  description: "Portfolio of Binyamin Tamirat, a Full-Stack/Frontend Developer specializing in React, Next.js, TypeScript, and Node.js. See work experience, projects, education, and get in touch.",
+};
+
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
@@ -124,9 +129,8 @@ export default function Page() {
                   Check out my latest work
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from simple
-                  websites to complex web applications. Here are a few of my
-                  favorites.
+                  I've worked on a range of projects, from simple websites to
+                complex web applications. Here are a few of my favorites.
                 </p>
               </div>
             </div>
@@ -163,7 +167,8 @@ export default function Page() {
                   </Link>
                 </Button>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  I like building things
+                  Full-stack developer specializing in React, Next.js, and
+                TypeScript
                 </h2>
 
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"></p>
@@ -191,8 +196,7 @@ export default function Page() {
                 >
                   with a direct question on telegram
                 </Link>{" "}
-                and I&apos;ll respond whenever I can. I will ignore all
-                soliciting.
+                and I'll respond whenever I can. I will ignore all soliciting.
               </p>
             </div>
           </BlurFade>
