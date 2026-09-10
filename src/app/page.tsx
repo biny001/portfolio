@@ -10,6 +10,11 @@ import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
 
+export const metadata = {
+  title: "Binyamin Tamirat – Full-Stack Developer | React, Next.js, TypeScript",
+  description: "Portfolio of Binyamin Tamirat, a full-stack and frontend developer building with React, Next.js, TypeScript, and Node.js. Explore projects, experience, and skills, or get in touch.",
+};
+
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
@@ -124,9 +129,8 @@ export default function Page() {
                   Check out my latest work
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, from simple
-                  websites to complex web applications. Here are a few of my
-                  favorites.
+                  I've worked on a variety of projects, from simple websites to
+                complex web applications. Here are a few of my favorites.
                 </p>
               </div>
             </div>
@@ -159,11 +163,11 @@ export default function Page() {
               <div className="space-y-2">
                 <Button>
                   <Link href="https://drive.google.com/file/d/19yAbD2f40n6aCB4jD3dJWM4EP3mg8muM/view?usp=sharing">
-                    Click here to get my resume/cv
+                    Download my resume/CV
                   </Link>
                 </Button>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  I like building things
+                  I enjoy building useful, user-friendly things.
                 </h2>
 
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed"></p>
@@ -184,15 +188,14 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me a dm{" "}
+                Want to chat? Just shoot me a DM {" "}
                 <Link
                   href={DATA.contact.social.X.url}
                   className="text-blue-500 hover:underline"
                 >
-                  with a direct question on telegram
+                  with a direct question on Telegram
                 </Link>{" "}
-                and I&apos;ll respond whenever I can. I will ignore all
-                soliciting.
+                 and I'll respond whenever I can. I will ignore all soliciting.
               </p>
             </div>
           </BlurFade>
