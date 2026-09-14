@@ -10,6 +10,11 @@ import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
 
+export const metadata = {
+  title: "Binyamin Tamirat — Full Stack Developer (React, Next.js, TypeScript)",
+  description: "Portfolio of Binyamin Tamirat, a Full Stack/Frontend Developer building with React, Next.js, TypeScript, and Node.js. See work experience, projects, and how to get in touch.",
+};
+
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {

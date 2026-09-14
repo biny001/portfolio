@@ -8,9 +8,9 @@ export const DATA = {
   location: "Addis Ababa, Piassa",
   locationLink: "",
   description:
-    "Software Engineer. I love building things and helping people.  ",
+    "Software Engineer. I love building things and helping people.",
   summary:
-    "I am a Comp Sci undergrad  and passionate Full Stack/Frontend Developer with hands-on experience in designing and developing scalable, user-friendly web applications. With a strong foundation in modern web technologies like React, Next.js, TypeScript, and Node.js, I bring a holistic approach to building intuitive and high-performance solutions.",
+    "I am a Comp Sci undergrad and passionate Full Stack/Frontend Developer with hands-on experience in designing and developing scalable, user-friendly web applications. With a strong foundation in modern web technologies like React, Next.js, TypeScript, and Node.js, I bring a holistic approach to building intuitive and high-performance solutions.",
   avatarUrl: "/benji2.jpg",
   skills: [
     "React",
@@ -87,7 +87,7 @@ export const DATA = {
       start: "August 2024",
       end: "Nov 2024",
       description:
-        "Built an intuitive, user-friendly interface using modern frameworks like  Next.js to ensure seamless navigation and accessibility for diverse user roles,Ensured high performance and responsiveness across all devices by optimizing UI components and leveraging best practices in web development",
+        "Built an intuitive, user-friendly interface using modern frameworks like Next.js to ensure seamless navigation and accessibility for diverse user roles. Ensured high performance and responsiveness across all devices by optimizing UI components and leveraging best practices in web development.",
     },
     {
       company: "Vardac Inc",
@@ -99,7 +99,7 @@ export const DATA = {
       start: "Nov 2024",
       end: "present",
       description:
-        "Designed and developed a visually engaging and responsive landing page using Next.js to effectively showcase there brand and services,Built a fully functional e-commerce site with seamless navigation, optimized product listings, and a streamlined checkout process to enhance user experience and drive sales",
+        "Designed and developed a visually engaging and responsive landing page using Next.js to effectively showcase their brand and services. Built a fully functional e-commerce site with seamless navigation, optimized product listings, and a streamlined checkout process to enhance user experience and drive sales.",
     },
   ],
   education: [
@@ -127,7 +127,7 @@ export const DATA = {
       dates: "Nov 2024 - Present",
       active: true,
       description:
-        "Austriali Mines is a mining company that mines gold, silver, and other precious metals. Built there landing page and There ecommer-app that uses Crypto currency for exchange",
+        "Austriali Mines is a mining company that mines gold, silver, and other precious metals. Built their landing page and their e-commerce app that uses cryptocurrency for exchange.",
       technologies: [
         "Next.js",
         "Typescript",
@@ -158,7 +158,7 @@ export const DATA = {
       dates: "August 2024 - Nov 2024",
       active: true,
       description:
-        "Built an intuitive, user-friendly interface using modern frameworks like  Next.js to ensure seamless navigation and accessibility for diverse user roles,Ensured high performance and responsiveness across all devices by optimizing UI components and leveraging best practices in web development",
+        "Built an intuitive, user-friendly interface using modern frameworks like Next.js to ensure seamless navigation and accessibility for diverse user roles. Ensured high performance and responsiveness across all devices by optimizing UI components and leveraging best practices in web development.",
 
       technologies: [
         "Next.js",
